@@ -1,0 +1,1 @@
+../build-Debug/01-compilers/compiler-norm.cpp.o ../build-Debug/01-compilers/compiler-main.cpp.o
