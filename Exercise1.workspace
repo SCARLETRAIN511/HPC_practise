@@ -3,13 +3,13 @@
   <Project Name="01-compilers" Path="01-compilers/01-compilers.project" Active="No"/>
   <Project Name="02-blas" Path="Exercise2/Exercise2.project" Active="No"/>
   <Project Name="EampleTest" Path="EampleTest/EampleTest.project" Active="No"/>
-  <Project Name="03-lapack" Path="03-lapack/03-lapack.project" Active="No"/>
-  <Project Name="blas_exercise" Path="blas_exercise/blas_exercise.project" Active="No"/>
-  <Project Name="cg" Path="cg/cg.project" Active="No"/>
-  <Project Name="Practise_Test" Path="Practise_Test/Practise_Test.project" Active="No"/>
+  <Project Name="03-lapack" Path="03-lapack/03-lapack.project" Active="Yes"/>
+  <Project Name="Ex4" Path="blas_exercise/blas_exercise.project" Active="No"/>
+  <Project Name="Ex4_cg" Path="cg/cg.project" Active="No"/>
+  <Project Name="Practise_test_1" Path="Practise_Test/Practise_Test.project" Active="No"/>
   <Project Name="mpi-hello" Path="mpi-hello/mpi-hello.project" Active="No"/>
   <Project Name="mpi-dot" Path="mpi-dot/mpi-dot.project" Active="No"/>
-  <Project Name="mpi-ring" Path="mpi-ring/mpi-ring.project" Active="Yes"/>
+  <Project Name="mpi-ring" Path="mpi-ring/mpi-ring.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -18,9 +18,9 @@
       <Project Name="Example" ConfigName="Debug"/>
       <Project Name="EampleTest" ConfigName="Debug"/>
       <Project Name="03-lapack" ConfigName="Debug"/>
-      <Project Name="blas_exercise" ConfigName="Debug"/>
-      <Project Name="cg" ConfigName="Debug"/>
-      <Project Name="Practise_Test" ConfigName="Debug"/>
+      <Project Name="Ex4" ConfigName="Debug"/>
+      <Project Name="Ex4_cg" ConfigName="Debug"/>
+      <Project Name="Practise_test_1" ConfigName="Debug"/>
       <Project Name="mpi-hello" ConfigName="Debug"/>
       <Project Name="mpi-dot" ConfigName="Debug"/>
       <Project Name="mpi-ring" ConfigName="Debug"/>
@@ -32,9 +32,9 @@
       <Project Name="Example" ConfigName="Release"/>
       <Project Name="EampleTest" ConfigName="Release"/>
       <Project Name="03-lapack" ConfigName="Release"/>
-      <Project Name="blas_exercise" ConfigName="Release"/>
-      <Project Name="cg" ConfigName="Release"/>
-      <Project Name="Practise_Test" ConfigName="Release"/>
+      <Project Name="Ex4" ConfigName="Release"/>
+      <Project Name="Ex4_cg" ConfigName="Release"/>
+      <Project Name="Practise_test_1" ConfigName="Release"/>
       <Project Name="mpi-hello" ConfigName="Release"/>
       <Project Name="mpi-dot" ConfigName="Release"/>
       <Project Name="mpi-ring" ConfigName="Release"/>

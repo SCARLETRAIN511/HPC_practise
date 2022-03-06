@@ -6,15 +6,15 @@
 ProjectName            :=03-lapack
 ConfigurationName      :=Debug
 WorkspaceConfiguration := $(ConfigurationName)
-WorkspacePath          :=/home/jt2418/Desktop/hpc/Exercise1/Exercise1
-ProjectPath            :=/home/jt2418/Desktop/hpc/Exercise1/Exercise1/03-lapack
+WorkspacePath          :=/home/jt2418/Desktop/hpc/Exercise1
+ProjectPath            :=/home/jt2418/Desktop/hpc/Exercise1/03-lapack
 IntermediateDirectory  :=../build-$(ConfigurationName)/03-lapack
 OutDir                 :=../build-$(ConfigurationName)/03-lapack
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=Jiaxuan Tang
-Date                   :=07/02/22
+Date                   :=06/03/22
 CodeLitePath           :=/home/jt2418/.codelite
 LinkerName             :=g++
 SharedObjectLinkerName :=g++ -shared -fPIC
@@ -92,7 +92,7 @@ PreBuild:
 ## Objects
 ##
 ../build-$(ConfigurationName)/03-lapack/main.cpp$(ObjectSuffix): main.cpp ../build-$(ConfigurationName)/03-lapack/main.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/jt2418/Desktop/hpc/Exercise1/Exercise1/03-lapack/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/home/jt2418/Desktop/hpc/Exercise1/03-lapack/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 ../build-$(ConfigurationName)/03-lapack/main.cpp$(DependSuffix): main.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT../build-$(ConfigurationName)/03-lapack/main.cpp$(ObjectSuffix) -MF../build-$(ConfigurationName)/03-lapack/main.cpp$(DependSuffix) -MM main.cpp
 
