@@ -16,7 +16,7 @@ int main(int argc, char* argv[])
 		return -1;
 	}
 	
-	
+	//get the rank of the process
 	MPI_Comm_rank(MPI_COMM_WORLD, &rank);
 	MPI_Comm_size(MPI_COMM_WORLD, &size);
 	
@@ -41,6 +41,12 @@ int main(int argc, char* argv[])
 	double nrmx = cblas_ddot(n,x,1,x,1);
 	double nrmy = cblas_ddot(n,y,1,y,1);
 	
+	cout << "The rank is :" << rank << endl;
+	cout << "dot product:" << dot << endl;;
+	cout << "Norm x:" << sqrt(nrmx)<< endl;
+	cout << "Norm y" << sqrt(nrmy)<< endl;
+	cout << endl;
+		
 	double dot_r;
 	double nrmx_r;
 	double nrmy_r;

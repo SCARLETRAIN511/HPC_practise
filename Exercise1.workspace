@@ -3,13 +3,18 @@
   <Project Name="01-compilers" Path="01-compilers/01-compilers.project" Active="No"/>
   <Project Name="02-blas" Path="Exercise2/Exercise2.project" Active="No"/>
   <Project Name="EampleTest" Path="EampleTest/EampleTest.project" Active="No"/>
-  <Project Name="03-lapack" Path="03-lapack/03-lapack.project" Active="Yes"/>
+  <Project Name="03-lapack" Path="03-lapack/03-lapack.project" Active="No"/>
   <Project Name="Ex4" Path="blas_exercise/blas_exercise.project" Active="No"/>
   <Project Name="Ex4_cg" Path="cg/cg.project" Active="No"/>
   <Project Name="Practise_test_1" Path="Practise_Test/Practise_Test.project" Active="No"/>
   <Project Name="mpi-hello" Path="mpi-hello/mpi-hello.project" Active="No"/>
   <Project Name="mpi-dot" Path="mpi-dot/mpi-dot.project" Active="No"/>
   <Project Name="mpi-ring" Path="mpi-ring/mpi-ring.project" Active="No"/>
+  <Project Name="07-openMp" Path="07-openMp/07-openMp.project" Active="No"/>
+  <Project Name="07-openmp-reduction" Path="07-openmp-reduction/07-openmp-reduction.project" Active="No"/>
+  <Project Name="07-openmp-section" Path="07-openmp-section/07-openmp-section.project" Active="No"/>
+  <Project Name="mpi-bcast" Path="mpi-bcast/mpi-bcast.project" Active="No"/>
+  <Project Name="mpi-pi" Path="mpi-pi/mpi-pi.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -24,6 +29,11 @@
       <Project Name="mpi-hello" ConfigName="Debug"/>
       <Project Name="mpi-dot" ConfigName="Debug"/>
       <Project Name="mpi-ring" ConfigName="Debug"/>
+      <Project Name="07-openMp" ConfigName="Debug"/>
+      <Project Name="07-openmp-reduction" ConfigName="Debug"/>
+      <Project Name="07-openmp-section" ConfigName="Debug"/>
+      <Project Name="mpi-bcast" ConfigName="Debug"/>
+      <Project Name="mpi-pi" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -38,6 +48,11 @@
       <Project Name="mpi-hello" ConfigName="Release"/>
       <Project Name="mpi-dot" ConfigName="Release"/>
       <Project Name="mpi-ring" ConfigName="Release"/>
+      <Project Name="07-openMp" ConfigName="Release"/>
+      <Project Name="07-openmp-reduction" ConfigName="Release"/>
+      <Project Name="07-openmp-section" ConfigName="Release"/>
+      <Project Name="mpi-bcast" ConfigName="Release"/>
+      <Project Name="mpi-pi" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
